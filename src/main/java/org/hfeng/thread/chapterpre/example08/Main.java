@@ -1,6 +1,6 @@
-package org.hfeng.thread.chapter01.example08;
+package org.hfeng.thread.chapterpre.example08;
 
-import org.hfeng.thread.chapter01.example06.Printer;
+import org.hfeng.thread.chapterpre.example06.Printer;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;

@@ -1,4 +1,4 @@
-package org.hfeng.thread.chapter01.example10;
+package org.hfeng.thread.chapterpre.example10;
 
 public class Bank {
     private int money;

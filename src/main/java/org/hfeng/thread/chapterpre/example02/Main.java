@@ -1,4 +1,4 @@
-package org.hfeng.thread.chapter01.example02;
+package org.hfeng.thread.chapterpre.example02;
 
 public class Main {
     public static void main(String[] args) {

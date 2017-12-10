@@ -1,11 +1,10 @@
-package org.hfeng.thread.chapter01.example04;
+package org.hfeng.thread.chapterpre.example06;
 
-public class PrintThread extends Thread {
+public class Printer implements Runnable {
     private String message;
-    public PrintThread(String message) {
+    public Printer(String message) {
         this.message = message;
     }
-
     @Override
     public void run() {
         for (int i = 0; i < 10000; i++) {
