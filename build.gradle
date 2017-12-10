@@ -7,7 +7,12 @@
  */
 
 // Apply the java-library plugin to add support for Java Library
-apply plugin: 'java-library'
+// Apply the java plugin to add support for Java
+apply plugin: 'java'
+
+// Apply the application plugin to add support for building an application
+apply plugin: 'application'
+
 apply plugin: 'idea'
 
 // In this section you declare where to find the dependencies of your project
@@ -19,7 +24,7 @@ repositories {
 
 dependencies {
     // This dependency is exported to consumers, that is to say found on their compile classpath.
-    api 'org.apache.commons:commons-math3:3.6.1'
+    // api 'org.apache.commons:commons-math3:3.6.1'
 
     // This dependency is used internally, and not exposed to consumers on their own compile classpath.
     implementation 'com.google.guava:guava:23.0'
@@ -28,3 +33,4 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 }
 
+mainClassName = System.getProperty("mainClass")
