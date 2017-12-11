@@ -2,6 +2,7 @@ package org.hfeng.thread.chapterpre.example04;
 
 public class PrintThread extends Thread {
     private String message;
+
     public PrintThread(String message) {
         this.message = message;
     }

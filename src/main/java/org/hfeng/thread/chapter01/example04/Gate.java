@@ -12,7 +12,7 @@ public class Gate {
         check();
     }
 
-    public synchronized  String toString() {
+    public synchronized String toString() {
         return "No." + counter + ": " + name + ", " + address;
     }
 
